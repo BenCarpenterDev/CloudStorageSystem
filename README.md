@@ -1,5 +1,5 @@
 # Cloud Storage System
-Cloud Storage System, University 2nd year project.
+Cloud Storage System, University 2nd year coursework project.
 
 Developed using Netbeans & JavaFx.
 
