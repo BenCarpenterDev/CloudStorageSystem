@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxapplication1.UserManagementController">
+   <children>
+      <Button fx:id="backMainBtn" layoutX="14.0" layoutY="358.0" mnemonicParsing="false" onAction="#backMainBtnHandler" text="Back" />
+      <Button fx:id="updateUserBtn" layoutX="173.0" layoutY="176.0" mnemonicParsing="false" onAction="#updateUserBtnHandler" text="Update" />
+      <TextField fx:id="userTextField" layoutX="38.0" layoutY="44.0" />
+      <PasswordField fx:id="passPasswordField" layoutX="35.0" layoutY="108.0" />
+      <PasswordField fx:id="repassPasswordField" layoutX="215.0" layoutY="108.0" />
+      <Label layoutX="46.0" layoutY="21.0" text="Username" />
+      <Label layoutX="38.0" layoutY="92.0" text="New Password" />
+      <Label layoutX="222.0" layoutY="92.0" text="Re-enter Password" />
+      <Button fx:id="managePermissionsBtn" layoutX="439.0" layoutY="17.0" mnemonicParsing="false" onAction="#managePermissionsBtnHandler" text="Manage Permissions" />
+   </children>
+</AnchorPane>
